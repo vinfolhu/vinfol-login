@@ -1,2 +1,0 @@
-# vinfol-login
-vinfol-login
