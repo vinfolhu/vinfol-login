@@ -1,0 +1,44 @@
+controller: com.vinfol.web
+server:
+    port: 8080
+    
+logging:
+  level:
+    root: info
+  pattern:
+    console: "[%d{yyyy-MM-dd HH:mm:ss.SSS}] [%thread] %level %logger{36}@%method:%line - %msg%n"    
+token:
+  header: Authorization
+  name: token
+admin:
+  name: admin
+  passwd: 123456
+
+#登录方式，默认是单点:S  多点：M
+loginType: M
+
+
+#redis:
+redis:
+  host: 127.0.0.1
+  port: 6379
+  password:
+  database: 1
+  maxActive: 8
+  maxWait: -1
+  maxIdle: 8
+  minIdle: 1
+  timeOut: 0
+
+
+spring:
+  data:
+    mongodb:
+      host: 127.0.0.1
+      port: 27017
+      database: vinfol
+#      authentication-database: admin
+#      username: username
+#      password: password
+
+
