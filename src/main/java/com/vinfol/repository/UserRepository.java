@@ -12,8 +12,6 @@ public interface UserRepository extends MongoRepository<UserModel, String> {
 	/**
 	 * 根据 developerId 查询 app
 	 *
-	 * @param developerId
-	 * @param pageable
 	 * @return
 	 */
 
