@@ -4,13 +4,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.vinfol</groupId>
+	<groupId>com.github.vinfolhu</groupId>
 	<artifactId>vinfol-login</artifactId>
 	<!-- <version>1.0</version> -->
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2</version>
 
 	<packaging>jar</packaging>
-	<name>vinfol-login</name>
+	<name>com.github.vinfolhu</name>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -82,12 +82,12 @@
 			<id>release</id>
 			<distributionManagement>
 				<snapshotRepository>
-					<id>nexus-release</id>
-					<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+					<id>login</id>
+					<url>https://oss.sonatype.org/content/repositories/snapshots</url>
 				</snapshotRepository>
 				<repository>
-					<id>nexus-release</id>
-					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+					<id>login</id>
+					<url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
 				</repository>
 			</distributionManagement>
 			<build>

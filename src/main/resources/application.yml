@@ -1,6 +1,6 @@
-controller: com.vinfol.web
+controller: com.github.vinfolhu.web
 server:
-    port: 8080
+    port: 8081
     
 logging:
   level:
@@ -19,19 +19,22 @@ loginType: M
 
 
 #redis:
-redis:
-  host: 127.0.0.1
-  port: 6379
-  password:
-  database: 1
-  maxActive: 8
-  maxWait: -1
-  maxIdle: 8
-  minIdle: 1
-  timeOut: 0
+# redis:
+#   host: 127.0.0.1
+#   port: 6379
+#   password:
+#   database: 1
+#   maxActive: 8
+#   maxWait: -1
+#   maxIdle: 8
+#   minIdle: 1
+#   timeOut: 0
 
 
 spring:
+  redis:
+    host: 127.0.0.1
+    port: 6378
   data:
     mongodb:
       host: 127.0.0.1
